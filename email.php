@@ -7,7 +7,7 @@
 </head>
 <body>
 	<?php 
-	mail($_POST[email], 'contact', $_POST[message]);
+	mail($_POST['email'], 'contact', $_POST['message']);
 ?>
 <p>Your email has been send.</p>
 </body>
